@@ -1,0 +1,23 @@
+{
+  "name": "pok-er",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://poker.dequ.org/",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+      "preact": "^10.23.1"
+    },
+    "devDependencies": {
+    "@preact/preset-vite": "^2.9.0",
+    "gh-pages": "^6.1.1",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.1"
+  }
+}
